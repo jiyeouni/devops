@@ -16,6 +16,16 @@
 ## S3 : user10-terraform
 ## DynamoDB : user10-terraform
 
+# AWSLoadBalancerControllerIAMPolicy
+
+# Utils
+- aws cli
+- kubectl
+- eksctl
+- helm
+- git 
+- terraform
+
 ## ECR:
 1. 인증 토큰을 검색하고 레지스트리에 대해 Docker 클라이언트를 인증합니다.
 aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin 255380800200.dkr.ecr.ap-southeast-1.amazonaws.com
@@ -32,3 +42,11 @@ docker push 255380800200.dkr.ecr.ap-southeast-1.amazonaws.com/skt-user10:latest
 https://github.com/jiyeouni/devops
 
 
+# eks helm repo
+$ helm repo add eks https://aws.github.io/eks-charts
+$ helm search repo
+
+# Build
+## JIB: 
+- Jib builds optimized Docker and OCI images for your Java applications without a Docker daemon
+- https://github.com/GoogleContainerTools/jib
