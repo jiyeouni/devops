@@ -3,6 +3,6 @@ variable "aws_region" {
 }
 
 variable "cluster-name" {
-  default = "test-eks-cluster"
+  default = "user10-eks-cluster"
   type    = string
 }
