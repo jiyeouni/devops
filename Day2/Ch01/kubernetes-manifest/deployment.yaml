@@ -13,8 +13,8 @@ spec:
         app.kubernetes.io/name: app-test
     spec:
       containers:
-        - image: 255380800200.dkr.ecr.ap-southeast-1.amazonaws.com/skt-user10:latest
-          imagePullPolicy: Always
-          name: app-test
-          ports:
+      - image: 255380800200.dkr.ecr.ap-southeast-1.amazonaws.com/skt-user10:latest
+        imagePullPolicy: Always
+        name: app-test
+        ports:
           - containerPort: 80
