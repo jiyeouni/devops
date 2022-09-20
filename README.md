@@ -16,7 +16,9 @@
 ## S3 : user10-terraform
 ## DynamoDB : user10-terraform
 
-# AWSLoadBalancerControllerIAMPolicy
+# IRSA (IAM Roles for Service Accounts)
+- AWSLoadBalancerControllerIAMPolicy
+
 
 # Utils
 - aws cli
